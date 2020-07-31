@@ -19,7 +19,7 @@
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
-            >Save & Load</a>
+            >Save & Load <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Save Data</a></li>
               <li><a href="#">Load Data</a></li>
