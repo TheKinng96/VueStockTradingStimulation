@@ -8,7 +8,10 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   routes,
+})
 
+Vue.filter('currency', (value) => {
+  return '$' + value.toLocaleString()
 })
 
 Vue.config.productionTip = false
